@@ -10,3 +10,16 @@ body {
   color:#bbb;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.light{
+  background-color: #fff;
+  color:#111;
+}
+.dark{
+  background-color: #111;
+  color:#fff;
+}
+
+.theme{
+  transition: 1s all ease;
+}

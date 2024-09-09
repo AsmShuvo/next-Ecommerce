@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import React from 'react';
+import DarkModeToggle from '../DarkModeToggle/DarkModeToggle';
 
 const links = [
     {
@@ -46,6 +47,7 @@ const Navbar = () => {
                 }
             </div>
             <button>Logout</button>
+            <DarkModeToggle/>
         </div>
     );
 };
